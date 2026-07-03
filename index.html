@@ -25,7 +25,12 @@
       -ms-user-select: none;
       user-select: none;
     }
-
+    
+    html, body {
+      background: #0F0C29;
+      padding-top: env(safe-area-inset-top);
+    }
+    
     body {
       margin: 0;
       background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
@@ -36,7 +41,6 @@
       align-items: flex-start;
       padding: 30px;
       overflow-x: hidden;
-      padding-top: env(safe-area-inset-top);
       
       /* Prevent text selection on body */
       -webkit-user-select: none;
