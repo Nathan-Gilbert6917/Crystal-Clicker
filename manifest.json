@@ -2,7 +2,7 @@
   "name": "Crystal Clicker",
   "short_name": "CrystalClicker",
   "description": "A fun clicker game with upgrades and achievements",
-  "start_url": "/",
+  "start_url": "/crystal-clicker",
   "display": "standalone",
   "background_color": "#0f0c29",
   "theme_color": "#ff7eb3",
