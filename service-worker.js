@@ -1,9 +1,11 @@
-const CACHE_NAME = 'crystal-clicker-v1';
+const CACHE_NAME = 'crystal-clicker-v2';
+
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/script.js'
+  '/Crystal-Clicker/',
+  '/Crystal-Clicker/index.html',
+  '/Crystal-Clicker/icon-192.png',
+  '/Crystal-Clicker/icon-512.png',
+  '/Crystal-Clicker/manifest.json'
 ];
 
 self.addEventListener('install', (event) => {
